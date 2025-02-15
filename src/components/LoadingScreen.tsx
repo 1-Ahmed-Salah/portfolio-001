@@ -20,10 +20,10 @@ export const LoadingScreen: React.FC<ILoadingScreenState> = ({ onComplete }) => 
 
                 setTimeout(()=> {
                     onComplete();
-                }, 1100);
+                }, 1000);
 
             }
-        }, 120);
+        }, 110);
 
         console.log(text);
 
