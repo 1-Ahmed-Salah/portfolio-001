@@ -7,7 +7,7 @@ interface ILoadingScreenState {
 export const LoadingScreen: React.FC<ILoadingScreenState> = ({ onComplete }) => {
 
     const [text, setText] = useState<string>('');
-    const fullText = '<Hakuna Matata />';
+    const fullText = '<HakunaMatata /> 🌑🦇';
 
     useEffect(()=> {
         let index: number = 0;
