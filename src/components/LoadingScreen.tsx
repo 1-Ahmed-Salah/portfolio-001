@@ -7,7 +7,7 @@ interface ILoadingScreenState {
 export const LoadingScreen: React.FC<ILoadingScreenState> = ({ onComplete }) => {
 
     const [text, setText] = useState<string>('');
-    const fullText = '<Hello World />';
+    const fullText = '<Hakuna Matata />';
 
     useEffect(()=> {
         let index: number = 0;
@@ -24,8 +24,6 @@ export const LoadingScreen: React.FC<ILoadingScreenState> = ({ onComplete }) => 
 
             }
         }, 110);
-
-        console.log(text);
 
         return () => {
             clearInterval(interval);
