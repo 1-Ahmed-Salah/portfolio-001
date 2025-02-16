@@ -14,7 +14,7 @@ const About = () => {
     return (
         <section id="about" className="min-h-screen flex justify-center items-center py-20">
             <div className="max-w-3xl mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+                <h2 className="text-3xl text-center font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
                     About Me
                 </h2>
 
@@ -31,7 +31,7 @@ const About = () => {
                             <div className="flex flex-wrap gap-2">
                                 {
                                     frontendSkills.map(tech => (
-                                        <span key={tech} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
+                                        <span key={tech} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                             {tech}
                                         </span>
                                     ))
